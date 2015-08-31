@@ -1,6 +1,16 @@
+/*Overriding the jumbotron class in the BootStrap theme*/
 .jumbotron {
-	padding-top: 5%;
+	padding-top: 7%;
+    margin-bottom: 0px;
 }
+.jumbotron-after {
+    min-height: 2px;
+    width: 100%;
+    background-color: #FF4A00;
+    margin-bottom: 30px;
+}
+
+/*User Footer class rule created instead of default one*/
 .kin-footer {
 	padding-top: 30px;
   	padding-bottom: 50px;
@@ -8,24 +18,21 @@
 	background-color: #101010;
 	color: inherit;
 }
+
+/*Unused Script: Please ignore*/
 .kin-row-hobby {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
-#mini-slideshow { 
-    margin: 50px auto; 
-    position: relative; 
-    width: 240px; 
-    height: 240px; 
-    padding: 10px; 
-    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+.mini-slideshow { 
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
-
-#mini-slideshow > div { 
-    position: absolute; 
-    top: 10px; 
-    left: 10px; 
-    right: 10px; 
-    bottom: 10px; 
+.mini-slideshow img { 
+    position:absolute; 
+    left:0; 
+    top:0; 
 }
